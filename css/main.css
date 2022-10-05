@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@200&display=swap');
+/* reset */
+html{
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+body{
+  font: 1.6rem sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100; 
+  margin: 0;
+  line-height: 1.6;
+}
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    font-style: normal;
+}
+
+
+button{
+    background: transparent;
+    font-size: inherit;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+figcaption{
+    display: none;
+
+}
+/*thème*/
+body{
+    font-size:large;
+    background-color: #2B2A33;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    margin: 3rem 0 3rem 0;
+}
+ul{
+    margin-top: 3rem;
+    
+}
+ul li{
+    width: 40%;
+    margin: 0 auto 10px auto ;
+    
+}
+ul li article{
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.toggle-pannel{
+    transition: all 1s ease-in-out;
+    transform-origin: top;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    color: #fff;
+    
+}
+
+ul li article h2 {
+    font-weight: 100;
+    color: #2B2A33;
+}
+ul li article button{
+    position: absolute;
+    right: 1rem;
+    top: 20px;
+    cursor: pointer;
+}
